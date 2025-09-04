@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .image-gallery {
+            display: flex;
+            gap: 10px; /* space between images */
+            justify-content: center; /* center horizontally */
+            flex-wrap: wrap; /* move to next line on smaller screens */
+        }
+        .image-gallery img {
+            width: 200px; /* adjust size */
+            height: auto;
+            border-radius: 8px; /* optional rounded corners */
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -59,11 +72,11 @@
                 <p>Happy Members</p>
             </div>
             <div class="stat">
-                <h3>5+</h3>
+                <h3>10+</h3>
                 <p>Years Experience</p>
             </div>
             <div class="stat">
-                <h3>24/7</h3>
+                <h3>24 / 7</h3>
                 <p>Access Available</p>
             </div>
         </div>
@@ -158,10 +171,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-dumbbell"></i>
-                        <p>Modern Gym Facility</p>
+               <div class="about-image">
+                    <div class="image-gallery">
+                        <img src="gympic1.jpg" alt="Image 1">
+                        <img src="gympic2.jpg" alt="Image 2">
+                        <img src="gympic3.jpg" alt="Image 3">
+                        <img src="gympic4.jpg" alt="Image 4">
                     </div>
                 </div>
             </div>
